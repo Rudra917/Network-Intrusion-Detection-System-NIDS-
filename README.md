@@ -26,6 +26,16 @@ Modern network infrastructures are increasingly exposed to a wide range of cyber
 - 🧠 **IBM Watson Studio** – for model development and deployment
 - ☁️ **IBM Cloud Object Storage** – for dataset storage and handling
 
+**Languages & APIs Supported:**
+
+- cURL
+- Java
+- JavaScript
+- Python
+- Scala
+
+The model was deployed as a **REST API**, which can be consumed using any of these languages.
+
 **Dataset Used:**
 - 📊 **NSL-KDD Dataset (KDDTrain+)**  
   Source: [Kaggle – NSL-KDD Dataset](https://www.kaggle.com/datasets/hassan06/nslkdd?select=KDDTrain%2B.txt)
@@ -48,7 +58,7 @@ Modern network infrastructures are increasingly exposed to a wide range of cyber
 3. Scaled numerical features
 4. Split data (80% training, 20% testing)
 5. Trained multiple models using **IBM Watson AutoAI**
-6. Selected the best-performing model (e.g., Random Forest)
+6. Selected the best-performing model (e.g., Snap Decision Tree Classifier)
 7. Deployed model as REST API endpoint on IBM Cloud
 8. Tested using real sample JSON input
 
